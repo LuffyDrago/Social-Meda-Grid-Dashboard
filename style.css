@@ -42,6 +42,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    /* background-color: var(--Very-Dark-Blue); */
 }
 
 .titles {
@@ -77,7 +78,11 @@ body {
     padding: 1em;
     border-radius: 0.2em;
     border-top: 4px solid var(--Facebook);
-    /* width: 250px; */
+    cursor: pointer;
+}
+
+.facebook-1:hover {
+    background-color: var(--Dark-Desaturated-Blue);
 }
 
 .twitter-1 {
@@ -85,7 +90,7 @@ body {
     padding: 1em;
     border-radius: 0.2em;
     border-top: 4px solid var(--Twitter);
-    /* width: 250px; */
+    cursor: pointer;
 }
 
 .instagram-1 {
@@ -93,7 +98,7 @@ body {
     padding: 1em;
     border-radius: 0.2em;
     border-top: 4px solid var(--insta1);
-    /* width: 250px; */
+    cursor: pointer;
 }
 
 .youtube-1 {
@@ -101,7 +106,7 @@ body {
     padding: 1em;
     border-radius: 0.2em;
     border-top: 4px solid var(--YouTube);
-    /* width: 250px; */
+    cursor: pointer;
 }
 
 .logo-icon {
@@ -153,6 +158,7 @@ body {
     justify-content: center;
     align-items: center;
     border-radius: 5px;
+    cursor: pointer;
 }
 
 .page-views {
@@ -164,7 +170,7 @@ body {
     font-weight: bold;
 }
 
-.num-per {
+.numzz {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -203,6 +209,7 @@ body {
     .head-details {
         display: flex;
         flex-direction: column;
+        /* background-color: var(--Very-Dark-Blue); */
     }
     .wrapper-color-switch {
         /* display: flex;
@@ -246,7 +253,6 @@ body {
     height: 2em;
     border-radius: 10em;
     background: #3dc2a2;
-    /* border: 2px solid var #69f0ae; */
     position: absolute;
     cursor: pointer;
 }
@@ -295,3 +301,16 @@ body {
 #input-color-switch {
     display: none;
 }
+
+
+/* 
+.color-behind {
+    background-color: var(--Very-Dark-Blue);
+    width: 99vw;
+    height: 38vh;
+    position: absolute;
+    margin: 0.2em;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    z-index: -1;
+} */
