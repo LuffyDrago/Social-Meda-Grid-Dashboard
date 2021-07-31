@@ -151,7 +151,7 @@ body {
     grid-gap: 1.5em;
 }
 
-.views-likes {
+.likesection {
     background-color: var(--Dark-Desaturated-Blue);
     display: flex;
     flex-direction: column;
