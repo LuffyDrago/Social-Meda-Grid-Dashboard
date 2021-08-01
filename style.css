@@ -110,8 +110,17 @@ body {
 }
 
 .logo-icon {
+    /* text-align: center;
+    color: var(--Desaturated-Blue); */
     text-align: center;
     color: var(--Desaturated-Blue);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.spacer {
+    margin-right: 8px;
 }
 
 .numbers {
@@ -227,11 +236,12 @@ body {
     }
 }
 
-@media screen and (max-width: 831px) {
+
+/* @media screen and (max-width:551px) {
     #wrapper-grid {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: 2fr;
     }
-}
+} */
 
 
 /* /LIGTH mode colors class */
