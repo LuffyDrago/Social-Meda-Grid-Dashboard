@@ -295,6 +295,8 @@ body {
     width: 12em;
     left: -8em;
     top: 0.4em;
+    font-weight: bold;
+    color: var(--Desaturated-Blue);
 }
 
 
@@ -307,9 +309,10 @@ body {
 
 /* change text of before if switch is on */
 
-#input-color-switch:checked~.color-switch::before {
+
+/* #input-color-switch:checked~.color-switch::before {
     content: "Light Mode On";
-}
+} */
 
 
 /* //hide input */
