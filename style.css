@@ -237,16 +237,6 @@ body {
 }
 
 
-/* @media screen and (max-width:760px) {
-    #wrapper-grid {
-        grid-template-columns: 1fr 1fr;
-    }
-    .overview-cards {
-        grid-template-columns: 1fr 1fr;
-    }
-} */
-
-
 /* /LIGTH mode colors class */
 
 .light-mode {
