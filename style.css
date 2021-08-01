@@ -227,6 +227,12 @@ body {
     }
 }
 
+@media screen and (max-width: 831px) {
+    #wrapper-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
 
 /* /LIGTH mode colors class */
 
